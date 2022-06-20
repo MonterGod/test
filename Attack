@@ -1,0 +1,58 @@
+import os
+import time
+import threding
+from request import get
+from re import search 
+from request import Seesion 
+from threding import Therad
+import colorama
+os.system ("clear")
+print ("Def:MonterGod")
+phone = imput("phone:")
+print("")
+NUM = int)intput("Num:")
+time.sleep(1)
+
+def api1():
+     request.post("https://api.coindesk.com/v1/bpi/currentprice.json")
+     print ("attack")
+     
+for i in range(NUM):
+    threading.Thread(target=api1).start()
+    
+def api2():
+     request.post("https://api.publicapis.org/entries")
+     print ("attack")
+     
+for i in range(NUM):
+    threading.Thread(target=api2).start()
+    
+def api3():
+     request.post("https://api.genderize.io/?name=luc")
+     print ("attack")
+     
+for i in range(NUM):
+    threading.Thread(target=api3).start()
+    
+def api4():
+     request.post("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
+     print ("attack")
+     
+for i in range(NUM):
+    threading.Thread(target=api4).start()
+    
+def api5():
+     request.post("https://dog.ceo/api/breeds/image/random")
+     print ("attack")
+     
+for i in range(NUM):
+    threading.Thread(target=api5).start()
+    
+def api6():
+    request.post("https://randomuser.me/api")
+    print("attack")
+    
+for i in range(NUM):
+    threading.Thread(target=api6).start()
+    
+    
